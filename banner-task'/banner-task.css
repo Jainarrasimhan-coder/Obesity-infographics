@@ -1,0 +1,175 @@
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 90px;
+    background-color: #f1f1f1;
+    border: 5px dotted black;
+}
+
+@media (max-width:600px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 90%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 100px;
+        margin-right: 90px;
+        background-color: #f1f1f1;
+    }
+}
+
+.myCard {
+    width: auto;
+    height: 500px;
+}
+
+#obesity {
+    width: 100%;
+    color: cyan;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    line-height: 10px;
+    margin-left: 10px;
+}
+
+#infographics {
+    text-align: center;
+    color: orange;
+}
+
+#line1 {
+    text-align: center;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+#line2 {
+    text-align: center;
+    line-height: 25px;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+    background-color: lightskyblue;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#line3 {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+#line4 {
+    margin-left: 20px;
+    color: blue;
+    font-weight: bolder;
+}
+
+#line23 {
+    font-size: 25px;
+    margin-left: 20px;
+    color: blueviolet;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+#table {
+    margin-left: 30px;
+    color: blue;
+    font-weight: bolder;
+    /* size: 70px; */
+}
+
+#row1 text {
+    size: 30px;
+}
+
+.creamimages img {
+    width: 160px;
+    margin-left: 30px;
+    height: 110px;
+    size: 100px;
+}
+
+#cream img {
+    width: 180px;
+    height: 100px;
+}
+
+.myCard2 table tr td {
+    margin: 0 30px !important;
+}
+
+#table tr td {
+    width: 150px;
+}
+
+.whole {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    color: green;
+    font-size: 25px;
+}
+
+.number {
+    color: orange;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nearly {
+    color: blue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.million {
+    text-transform: uppercase;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: black;
+    text-align: left;
+}
+
+.myCard4 img {
+    width: 100px;
+}
+
+.diabetes {
+    color: black;
+    font-size: 30px;
+}
+
+.people {
+    color: orange;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.lorum {
+    color: blue;
+}
+
+.banner4cardmain {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.bannercontent {
+    margin: 0 10px;
+}
